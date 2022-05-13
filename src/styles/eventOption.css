@@ -1,0 +1,42 @@
+.eventOptionContainer {
+    display: flex;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.optionImg, .optionImg img {
+    
+    width: 20px;
+    height: 20px;
+    font-size: 5px;
+    
+}
+
+.eventOptionValue {
+    font-size: 20px;
+    margin: 0px 5px;
+    white-space: nowrap;
+    text-transform: capitalize;
+}
+
+.active {
+    color: #fa7437;
+}
+
+
+
+
+
+@media screen  and (max-width: 790px) {
+
+
+
+
+}
+
+@media screen and (max-width: 480px) {
+
+
+
+
+}

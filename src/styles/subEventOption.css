@@ -1,0 +1,39 @@
+.subEventOptionContainer {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.subEventOptionValue {
+    font-size: 18px;
+    margin: 0px 5px;
+    white-space: nowrap;
+    
+}
+
+.active {
+    color: #fa7437;
+}
+
+
+
+
+
+@media screen  and (max-width: 790px) {
+
+
+
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .subEventOptionValue {
+        font-size: 18px;
+        margin: 0px 4px;
+        white-space: nowrap;
+        
+    }
+
+
+}

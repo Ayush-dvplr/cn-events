@@ -1,0 +1,39 @@
+.chngPageWrapper {
+    
+    display: flex;
+    justify-content: center;
+}
+
+.ChngPageContainer {
+    display: flex;
+    align-items: center;
+}
+
+.ChngPageContainer > div {
+    margin: 5px;
+}
+
+.ChngPageContainer .chngSign,.ChngPageContainer input{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.chngSign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+    background-color: #fbcaad;
+    color: white
+}
+
+.ChngPageContainer input::-webkit-outer-spin-button,
+.ChngPageContainer input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

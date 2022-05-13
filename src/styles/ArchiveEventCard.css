@@ -1,0 +1,153 @@
+
+.archiveCard {
+    width: 45%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.archiveImageBox {
+    position: relative;
+}
+
+.archiveCardImage {
+    background-image: linear-gradient(to bottom,#828a94,#aaa4a0);
+}
+
+.archiveCardImage,.archiveCardImage img {
+    width: 100%;
+    height: 140px;
+}
+
+.archiveRegTime {
+    background-color: white;
+    position: absolute;
+    display: flex;
+    font-size: 10px;
+    right: 0px;
+    top: 90px;
+    padding: 10px;
+}
+
+
+.archiveCardTitle {
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.timeVenueBox {
+    display: flex;
+    padding: 10px;
+    font-size: 13px;
+} 
+
+.timeVenueBox > div {
+    padding: 10px;
+}
+
+.archiveCardDes {
+    padding: 10px;
+    color: #a3867c;
+    font-size: 15px;
+    text-align: left;
+}
+
+.archivetaglistBox {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.archivetags{
+    background-color: #eeeeee;
+    padding: 5px;
+    font-size: 12px;
+    color: #828a94;
+    margin: 2px;
+}
+
+
+
+@media screen  and (max-width: 850px) {
+
+    .archiveCard {
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .archiveCardImage,.archiveCardImage img {
+        width: 100%;
+        height: 150px;
+    }
+
+    .archiveCardTitle {
+        font-size: 18px;
+        padding: 10px;
+        font-weight: 600;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .timeVenueBox {
+        display: flex;
+        padding: 10px;
+        font-size: 13px;
+        margin: 15px;
+    } 
+
+    .archiveCardDes {
+        padding: 10px;
+        color: #a3867c;
+        font-size: 15px;
+        display: flex;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .timeVenueBox > div {
+        padding: 3px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+    .archiveCard {
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+
+.archiveCardImage,.archiveCardImage img {
+        width: 100%;
+        height: 150px;
+    }
+
+    .archiveRegTime {
+        background-color: white;
+        position: absolute;
+        font-size: 10px;
+        right: 0px;
+        top: 105px;
+        padding: 8px;
+    }
+
+    .archiveCardTitle {
+        font-size: 25px;
+    }
+
+    .timeVenueBox > div {
+        padding: 10px;
+    }
+
+}

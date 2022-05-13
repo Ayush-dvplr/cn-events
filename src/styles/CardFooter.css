@@ -1,0 +1,324 @@
+.activeCardFooter {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.activeRegUsers{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.activeTopUsers {
+    display: flex;
+    
+}
+
+.activeTopUsers > div {
+    margin: 2px;
+}
+
+.regUserImgBox {
+    position: relative;
+}
+
+.regUserImgBox > label {
+    
+    position: absolute;
+    top: -20px;
+    left: 0;
+    visibility: hidden;
+    
+}
+
+.regUserImgBox > img {
+    z-index: 5;
+}
+
+.regUserImgBox > img:hover {
+    visibility: visible;
+    background-color: antiquewhite;
+}
+
+
+
+.activeTopUsers > div , .activeTopUsers img {
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.activeRegUser {
+    color: gray;
+    font-size: 15px;
+    text-align: left;
+   
+}
+
+.activeCardReg {
+    
+    display: flex;
+    align-items: center;
+}
+
+.activeRegister {
+    white-space: nowrap;
+    font-size: 15px;
+    color: white;
+    padding: 8px;
+    background-image: linear-gradient(to right,#fa7627,#ef9e16);
+    border-radius: 4px;
+    
+}
+
+@media screen  and (max-width: 1080px) {
+ 
+    .activeRegUsers{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    
+    .activeTopUsers {
+        display: flex;
+        
+    }
+    
+    .activeTopUsers > div {
+        margin: 2px;
+    }
+    
+    .activeTopUsers > div , .activeTopUsers img {
+    
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+    }
+    
+    .activeRegUser {
+        color: gray;
+        font-size: 13px;
+        text-align: left;
+       
+    }
+    
+    .activeCardReg {
+        
+        display: flex;
+        align-items: center;
+    }
+    
+    .activeRegister {
+        white-space: nowrap;
+        font-size: 13px;
+        color: white;
+        padding: 6px;
+        background-image: linear-gradient(to right,#fa7627,#ef9e16);
+        border-radius: 4px;
+        
+    }
+}
+
+
+
+@media  screen and (max-width:930px) {
+    .activeRegUsers{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    
+    .activeTopUsers {
+        display: flex;
+        
+    }
+    
+    .activeTopUsers > div {
+        margin: 1px;
+    }
+    
+    .activeTopUsers > div , .activeTopUsers img {
+    
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    
+    .activeRegUser {
+        color: gray;
+        font-size: 13px;
+        text-align: left;
+       
+    }
+    
+    .activeCardReg {
+        
+        display: flex;
+        align-items: center;
+    }
+    
+    .activeRegister {
+        white-space: nowrap;
+        font-size: 13px;
+        color: white;
+        padding: 6px;
+        background-image: linear-gradient(to right,#fa7627,#ef9e16);
+        border-radius: 4px;
+        
+    }
+}
+
+@media screen  and (max-width: 849px) {
+
+    .activeRegUsers{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    
+    .activeTopUsers {
+        display: flex;
+        
+    }
+    
+    .activeTopUsers > div {
+        margin: 3px;
+    }
+    
+    .activeTopUsers > div , .activeTopUsers img {
+    
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    
+    .activeRegUser {
+        color: gray;
+        font-size: 15px;
+        text-align: left;
+       
+    }
+    
+    .activeCardReg {
+        
+        display: flex;
+        align-items: center;
+    }
+    
+    .activeRegister {
+        white-space: nowrap;
+        font-size: 15px;
+        color: white;
+        padding: 8px;
+        background-image: linear-gradient(to right,#fa7627,#ef9e16);
+        border-radius: 4px;
+        
+    }
+
+}
+
+@media screen  and (max-width: 410px) {
+    .activeRegUsers{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    
+    .activeTopUsers {
+        display: flex;
+        
+    }
+    
+    .activeTopUsers > div {
+        margin: 1px;
+    }
+    
+    .activeTopUsers > div , .activeTopUsers img {
+    
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+    }
+    
+    .activeRegUser {
+        color: gray;
+        font-size: 13px;
+        text-align: left;
+       
+    }
+    
+    .activeCardReg {
+        
+        display: flex;
+        align-items: center;
+    }
+    
+    .activeRegister {
+        white-space: nowrap;
+        font-size: 13px;
+        color: white;
+        padding: 6px;
+        background-image: linear-gradient(to right,#fa7627,#ef9e16);
+        border-radius: 4px;
+        
+    }
+
+}
+
+@media screen  and (max-width: 340px) {
+    .activeRegUsers{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    
+    .activeTopUsers {
+        display: flex;
+        
+    }
+    
+    .activeTopUsers > div {
+        margin: 1px;
+    }
+    
+    .activeTopUsers > div , .activeTopUsers img {
+    
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    
+    .activeRegUser {
+        color: gray;
+        font-size: 12px;
+        text-align: left;
+       
+    }
+    
+    .activeCardReg {
+        
+        display: flex;
+        align-items: center;
+    }
+    
+    .activeRegister {
+        white-space: nowrap;
+        font-size: 12px;
+        color: white;
+        padding: 5px;
+        background-image: linear-gradient(to right,#fa7627,#ef9e16);
+        border-radius: 4px;
+        
+    }
+}
